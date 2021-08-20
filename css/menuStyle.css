@@ -1,0 +1,47 @@
+/*Makes the style, size, and position of div menus and uniqe styles*/
+
+.menu{
+    display: none;
+    margin-top: 200px;
+    background-image: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+} /*Will have opacity of 0.5 when active*/
+
+/*main menu screen div style*/
+#mainMenuScreen{
+   height: 35%;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+}
+
+#mainMenuScreen h1{
+    color: pink;
+    font-size: 40px;
+}
+
+#mainMenuScreen p{
+    color: white;
+    font-size: 25px;
+}
+
+#mainMenuScreen button{
+    margin-top: 4%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(72, 230, 174);
+    padding: 15px 25px 15px 25px;
+    color: white;
+    font-size: 20px;
+}
+
+#mainMenuScreen button:hover{
+    background-color: blueviolet;
+}
+
+/*main game menu design*/
+
+#mainGame{
+    height: 55%;
+    font-family: 'Poppins', sans-serif;
+}

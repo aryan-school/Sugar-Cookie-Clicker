@@ -1,0 +1,101 @@
+/*To style and position stuff in the main game*/
+
+.gameLabel{
+    font-size: 32px;
+}
+
+.shopBtn{
+    border: none;
+    /*padding: 10px 50px 10px 50px;*/
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer
+}
+/*tip styling*/
+.tip{
+    color:aqua;
+}
+
+#tip1{
+    display: none;
+    width: 400px;
+    padding-top: 360px;
+}
+
+#tip2{
+    display: none;
+    padding-top: 120px;
+}
+
+#tip3{
+    display: none;
+    position: absolute;
+    right: 150px;
+    top: 550px;
+    width: 200px;
+}
+
+#removeTips{
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 900px;
+    color: white;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+/*tip end*/
+
+#cookieAmountLabel{
+    position: absolute;
+    left: 50;
+    bottom: 588;
+    color: wheat;
+}
+
+#rebirthAmountLabel{
+    position: absolute;
+    bottom: 488;
+    left: 50;
+    color: lime;
+}
+
+#bakerAmountLabel{
+    position: absolute;
+    bottom: 388;
+    left: 50;
+    color: #930088;
+}
+
+#gameShop{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 650;
+    top: 300;
+    background-color: rgba(0, 96, 135, 0.5);
+    text-align: center;              
+}
+
+#cookieBin{
+    text-align: center;
+    position: absolute;
+    left: 1400;
+    top: 260;
+}
+
+#cookieMsg{
+    font-size: 30px;
+    color: white;
+}
+
+#daCookie{
+    cursor: pointer;
+}
+
+#daCookie:hover{
+    width: 300px;
+    height: 300px;
+}

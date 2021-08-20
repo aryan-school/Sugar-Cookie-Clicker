@@ -1,0 +1,6 @@
+/*This is to style the body element*/
+
+body{
+    background-image: url("/assets/background.png");
+    margin: 0px;
+}

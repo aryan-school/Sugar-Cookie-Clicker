@@ -1,0 +1,59 @@
+<!--Aryan final thing 2021-->
+<html>
+    <head>
+        <!--Meta data-->
+
+        <title>Sugar Cookie Clicker</title>
+
+        <!--CSS-->
+        <link href="css/fonts.css" rel="stylesheet">
+        <link href="css/body.css" rel="stylesheet">
+        <link href="css/menuStyle.css" rel="stylesheet">
+        <link href="css/gameObjectStyle.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="mainMenuScreen" class="menu">
+            <h1>Sugar Cookie Clicker</h1>
+            <p>Made by Aryan</p>
+            <button id="mainMenuStartBtn">PLAY!</button>
+        </div>
+
+        <div id="mainGame" class="menu">
+            <button id="removeTips">Remove tips</button>
+            <p id="cookieAmountLabel" class="gameLabel">Cookies: N/A</p>
+            <p id="rebirthAmountLabel" class="gameLabel">Rebirths: N/A</p>
+            <p id="bakerAmountLabel" class="gameLabel">Bakers: N/A</p>
+            <p class="tip" id="tip1">This is where your stats are, you will get 1 rebirth every 1000 cookies you make and you win with 7 rebirths.</p>
+            <div id="gameShop">
+                <button class="shopBtn" id="bakerBuy">Buy a baker for 50 cookies</button><br>
+                <button class="shopBtn" id="boostBuy">Buy a 30 second boost for 200 cookies</button>
+                <p class="tip" id="tip2">This is where you can buy bakers and temporary boosts, bakers give you 1 cookie per second and boosts gives your cookies a 4x multiplier for 30 seconds.</p>
+            </div>
+            <div id="cookieBin">
+                <p id="cookieMsg">Click for a cookie :D</p>
+                <img src="assets/cookie.png" id="daCookie">
+            </div>
+            <p class="tip" id="tip3">Click this for a cookie, use this to get a start on your bakery. Clicking this will give you 1 cookie.</p>
+        </div>
+        <!--SCRIPTS-->
+
+        <!--Libraries:-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!--Function scripts-->
+
+        <script src="js/tips.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/util.js"></script>
+
+        <!--Runtime scripts-->
+
+        <script src="js/effects.js"></script>
+
+        <!--Core runtime scripts-->
+
+        <script src="js/start.js"></script>
+        <script src="js/gameInteraction.js"></script>
+    </body>
+</html>
